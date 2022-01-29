@@ -1,0 +1,150 @@
+body {
+    background-color: #f7f7f7;
+    color: #000;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;  
+    box-shadow: 5px 5px 0px 1px rgba(247,247,247,0.2);
+    line-height: 1.6;    
+}
+
+/* layout */
+
+.content {
+    background-color: #fbfbfb;
+    box-shadow: 3px 3px 10px rgba(255, 158, 48, 0.2);    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+
+/* typography */
+
+h1, p {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: .5em auto;
+}
+
+.balenina { 
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* form */
+
+form {
+    padding: 1em;
+    min-width: 300px;
+    text-align: center;
+}
+
+form > * {
+    padding: .5em 0;
+    margin: 1em;
+}
+
+input {
+    min-width: 7em;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* buttons */
+
+.btns {
+    min-width: 150px;
+    margin: 0;
+    display: flex;
+}
+
+button {
+    border: none;
+    background-color: orange;
+    display: inline-block;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    color: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    transition: transform 250ms;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(247, 189, 83);
+    transform: scale(1.05);
+}
+
+.recipe {
+    margin: 2em;
+    padding: 30px 15px;
+    min-width: 10em;
+    background-color: sienna;
+    line-height: 1.6;
+}
+
+.recipe:hover {
+    background-color: rgb(204, 103, 57);
+    transform: scale(1.05);
+}
+
+#submit {
+    margin: 1em 0;
+}
+
+.form-container,
+.output {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+/* idea scrapped, maybe revisit later
+@media (min-width: 800px) {
+    .flex-container, 
+    .inputArea {
+        flex-direction: row;
+    }
+
+    .inputArea {
+        min-height: 350px;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+}*/
