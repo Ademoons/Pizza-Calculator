@@ -37,6 +37,8 @@ body {
 h1, p {
     font-family: 'Roboto', sans-serif;
     color: #444444;
+    text-align: center;
+
 }
 
 h1 {
@@ -131,6 +133,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     line-height: 1.2;
+}
+
+.output {
+    margin-bottom: 2em;
 }
 
 /* idea scrapped, maybe revisit later
