@@ -1,6 +1,6 @@
 body {
     background-color: #494949;
-    background-image: url("images/uw.jpg");
+    background-image: url("/images/uw.jpg");
     background-size: cover;
     background-blend-mode: overlay;
     color: #000;
@@ -37,11 +37,10 @@ body {
 
 /* typography */
 
-h1, h2, p{
+h1, h2, p {
     font-family: 'Roboto', sans-serif;
     color: #444444;
     text-align: center;
-
 }
 
 h1 {
