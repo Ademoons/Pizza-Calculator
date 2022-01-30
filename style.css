@@ -3,7 +3,6 @@ body {
     background-image: url("images/uw.jpg");
     background-size: cover;
     background-blend-mode: overlay;
-    color: #000;
     height: 100vh;
     margin: 0 auto;
     display: grid;
@@ -37,11 +36,10 @@ body {
 
 /* typography */
 
-h1, h2, p{
+h1, h2, p {
     font-family: 'Roboto', sans-serif;
     color: #444444;
     text-align: center;
-
 }
 
 h1 {
