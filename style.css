@@ -34,7 +34,6 @@ body {
     min-height: 200px;
 }
 
-
 /* typography */
 
 h1, h2, p {
@@ -147,20 +146,3 @@ button:hover {
 .output {
     margin-bottom: 2em;
 }
-
-/* idea scrapped, maybe revisit later
-@media (min-width: 800px) {
-    .flex-container, 
-    .inputArea {
-        flex-direction: row;
-    }
-
-    .inputArea {
-        min-height: 350px;
-    }
-
-    .btns {
-        flex-direction: column;
-    }
-
-}*/
