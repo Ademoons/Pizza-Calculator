@@ -1,6 +1,6 @@
 body {
     background-color: #46535e;
-    background-image: url("./images/pizzanic.jpg");
+    background-image: url("pizzanic.jpg");
     background-size: cover;
     background-blend-mode: overlay;
     object-fit: cover;
