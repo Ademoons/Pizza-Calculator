@@ -84,7 +84,7 @@ function renderThird() {
 
 function generateFirst() {
     formArea.innerHTML = `
-        <h2>Prima Ricetta</h2>
+        <h2>Idratazione 70%</h2>
         <form id="formElement" onsubmit="return false">
         <input type="number" id="farina" placeholder="Farina">
         <button id="submit" type="submit">Genera</button>
@@ -97,7 +97,7 @@ function generateFirst() {
 
 function generateSecond() {
     formArea.innerHTML = `
-        <h2>Seconda Ricetta</h2>
+        <h2>Idratazione 65%</h2>
         <form id="formElement" onsubmit="return false">
         <input type="number" id="farina" placeholder="Farina">
         <button id="submit" type="submit">Genera</button>
@@ -109,7 +109,7 @@ function generateSecond() {
 
 function generateThird() {
     formArea.innerHTML = `
-        <h2>Terza Ricetta</h2>
+        <h2>Pizza Devota</h2>
         <form id="formElement" onsubmit="return false">
         <input type="number" id="farina" placeholder="Farina">
         <button id="submit" type="submit">Genera</button>
