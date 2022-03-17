@@ -1,6 +1,3 @@
-// 10kg di farina, 6,5 litri d'acqua, 260g di sale e 25g di lievito. 
-//L'altra è 10kg di farina, 7 litri d'acqua, 6g di lievito per per litro, 300g di sale e 500g di olio.
-
 const recipe1Btn = document.getElementById("recipe1")
 const recipe2Btn = document.getElementById("recipe2")
 const recipe3Btn = document.getElementById("recipe3")
